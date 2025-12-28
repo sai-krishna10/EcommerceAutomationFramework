@@ -1,0 +1,47 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Regression" parallel="true" thread-count="6">
+
+    <listeners>
+        <listener class-name="utils.ExtentListener"/>
+        <listener class-name="org.testng.reporters.EmailableReporter2"/>
+    </listeners>
+
+
+    <test name="Registration">
+        <packages>
+            <package name="tests.register"/>
+        </packages>
+    </test>
+
+    <test name="Login">
+        <packages>
+            <package name="tests.login"/>
+        </packages>
+    </test>
+
+    <test name="Search">
+        <packages>
+            <package name="tests.search"/>
+        </packages>
+    </test>
+
+    <test name="AddCart">
+        <packages>
+            <package name="tests.addcart"/>
+        </packages>
+    </test>
+
+    <test name="Checkout">
+        <packages>
+            <package name="tests.checkout"/>
+        </packages>
+    </test>
+
+    <test name="Logout">
+        <packages>
+            <package name="tests.logout"/>
+        </packages>
+    </test>
+
+</suite>
