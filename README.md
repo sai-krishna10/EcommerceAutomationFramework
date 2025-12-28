@@ -25,40 +25,6 @@ Data Source: Excel (Apache POI)
 Version Control: Git & GitHub
 
 
-🏗 Framework Architecture
-├── src/main/java
-│   ├── base
-│   │   ├── BaseTest.java
-│   │   └── BasePage.java
-│   ├── pages
-│   │   ├── HomePage.java
-│   │   ├── LoginPage.java
-│   │   ├── RegistrationPage.java
-│   │   └── SearchPage.java
-│   ├── utils
-│   │   ├── CommonUtils.java
-│   │   ├── ExcelUtils.java
-│   │   ├── ExtentListener.java
-│   │   └── ConfigReader.java
-│
-├── src/test/java
-│   ├── tests
-│   │   ├── login
-│   │   ├── register
-│   │   ├── search
-│   │   └── cart
-│
-├── src/test/resources
-│   ├── config
-│   │   └── Config.properties
-│   ├── testdata
-│   │   └── TestData.xlsx
-│   ├── screenshots
-│
-├── testng.xml
-├── pom.xml
-└── README.md
-
 **🔑 Framework Features**
 
 ✔ Hybrid Framework (POM + Data-Driven + Keyword-Driven)
