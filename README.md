@@ -1,4 +1,5 @@
 **🛒 E-Commerce Automation Testing Framework**
+
 **📌 Project Overview**
 
 This project is a scalable Hybrid Automation Framework developed using Java, Selenium WebDriver, and TestNG to automate an E-Commerce web application.
